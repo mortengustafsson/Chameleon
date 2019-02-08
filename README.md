@@ -11,9 +11,9 @@ Chameleon is an iOS application written in [Swift](https://developer.apple.com/s
 [Morten Gustafson](https://github.com/mortengustafsson) / morten@mortengustafsson.dk
 
 
-### Thanks to:
+### Credit to:
 [Julien Sagot](https://gist.github.com/juliensagot) for the AverageColor code:  https://gist.github.com/juliensagot/602f27776fdf0e0d7c92dd52a2f94662
 
-The Chameleon graphic are found on [Flaticon](https://www.flaticon.com/free-icon/chameleon_36320) and made by [flaticon](www.flaticon.com). Leaves and tree graphics are made by [Morten Gustafsson](https://github.com/mortengustafsson) from www.mortengustafsson.dk
+[flaticon](www.flaticon.com) for the vector version of the Chameleon, found on [Flaticon](https://www.flaticon.com/free-icon/chameleon_36320). Leaves and tree graphics are made by [Morten Gustafsson](https://github.com/mortengustafsson) from www.mortengustafsson.dk
 
 The graphic has been exported as code using [PaintCode](https://www.paintcodeapp.com).

@@ -1,7 +1,7 @@
 <img src="https://user-images.githubusercontent.com/18748095/52474395-abde3280-2b98-11e9-95b5-8b75b63e7531.png" data-canonical-src="https://user-images.githubusercontent.com/18748095/52474395-abde3280-2b98-11e9-95b5-8b75b63e7531.png" width="150" height="150" />
 
 ## Chameleon
-Chameleon is an iOS app written in [Swift](https://developer.apple.com/swift/). It use the back camera to measure the average color form the camera feed, and then change the Chameleon's body color. .
+Chameleon is an iOS app written in [Swift](https://developer.apple.com/swift/). It use the back camera to measure the average color form the camera feed, and then change the Chameleon's body color.
 
 ![chameleon_500](https://user-images.githubusercontent.com/18748095/52474685-79810500-2b99-11e9-9441-17998d0a5788.gif)
 

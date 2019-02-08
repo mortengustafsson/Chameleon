@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD0C638E2170E93B009A876F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C638D2170E93B009A876F /* AppDelegate.swift */; };
+		FD0C63902170E93B009A876F /* ChameleonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C638F2170E93B009A876F /* ChameleonViewController.swift */; };
+		FD0C63952170E93D009A876F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0C63942170E93D009A876F /* Assets.xcassets */; };
+		FD0C63982170E93D009A876F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0C63962170E93D009A876F /* LaunchScreen.storyboard */; };
+		FD0C63A32170E93D009A876F /* Chameleon_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C63A22170E93D009A876F /* Chameleon_Tests.swift */; };
+		FD0C63AE2170E93D009A876F /* Chameleon_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C63AD2170E93D009A876F /* Chameleon_UITests.swift */; };
+		FD0C63BF21746F2D009A876F /* ChameleonFigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD0C63BE21746F2D009A876F /* ChameleonFigureView.swift */; };
+		FD1DA677217482D800C1A0C0 /* ChameleonForgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1DA676217482D800C1A0C0 /* ChameleonForgroundView.swift */; };
+		FD1DA6792174847D00C1A0C0 /* ChameleonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1DA6782174847D00C1A0C0 /* ChameleonView.swift */; };
+		FD1DA67B2174886F00C1A0C0 /* ChameleonBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1DA67A2174886F00C1A0C0 /* ChameleonBackgroundView.swift */; };
+		FD1DA67E2174CA9400C1A0C0 /* CameraFeedService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1DA67D2174CA9400C1A0C0 /* CameraFeedService.swift */; };
+		FD1DA6802175D68B00C1A0C0 /* AverageColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1DA67F2175D68B00C1A0C0 /* AverageColorHelper.swift */; };
+		FDFC4B1621786B350051103D /* AverageCameraFeedColorService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFC4B1521786B350051103D /* AverageCameraFeedColorService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD0C639F2170E93D009A876F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD0C63822170E93B009A876F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD0C63892170E93B009A876F;
+			remoteInfo = "Chamelon Fun";
+		};
+		FD0C63AA2170E93D009A876F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD0C63822170E93B009A876F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD0C63892170E93B009A876F;
+			remoteInfo = "Chamelon Fun";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD0C638A2170E93B009A876F /* Chameleon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chameleon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0C638D2170E93B009A876F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD0C638F2170E93B009A876F /* ChameleonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChameleonViewController.swift; sourceTree = "<group>"; };
+		FD0C63942170E93D009A876F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD0C63972170E93D009A876F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD0C63992170E93D009A876F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0C639E2170E93D009A876F /* ChameleonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChameleonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0C63A22170E93D009A876F /* Chameleon_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chameleon_Tests.swift; sourceTree = "<group>"; };
+		FD0C63A42170E93D009A876F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0C63A92170E93D009A876F /* ChameleonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChameleonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD0C63AD2170E93D009A876F /* Chameleon_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chameleon_UITests.swift; sourceTree = "<group>"; };
+		FD0C63AF2170E93D009A876F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD0C63BE21746F2D009A876F /* ChameleonFigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChameleonFigureView.swift; sourceTree = "<group>"; };
+		FD1DA676217482D800C1A0C0 /* ChameleonForgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChameleonForgroundView.swift; sourceTree = "<group>"; };
+		FD1DA6782174847D00C1A0C0 /* ChameleonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChameleonView.swift; sourceTree = "<group>"; };
+		FD1DA67A2174886F00C1A0C0 /* ChameleonBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChameleonBackgroundView.swift; sourceTree = "<group>"; };
+		FD1DA67D2174CA9400C1A0C0 /* CameraFeedService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFeedService.swift; sourceTree = "<group>"; };
+		FD1DA67F2175D68B00C1A0C0 /* AverageColorHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageColorHelper.swift; sourceTree = "<group>"; };
+		FDFC4B1521786B350051103D /* AverageCameraFeedColorService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageCameraFeedColorService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD0C63872170E93B009A876F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0C639B2170E93D009A876F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0C63A62170E93D009A876F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD0C63812170E93B009A876F = {
+			isa = PBXGroup;
+			children = (
+				FD0C638C2170E93B009A876F /* Chameleon */,
+				FD0C63A12170E93D009A876F /* Chameleon Tests */,
+				FD0C63AC2170E93D009A876F /* Chameleon UITests */,
+				FD0C638B2170E93B009A876F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD0C638B2170E93B009A876F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD0C638A2170E93B009A876F /* Chameleon.app */,
+				FD0C639E2170E93D009A876F /* ChameleonTests.xctest */,
+				FD0C63A92170E93D009A876F /* ChameleonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD0C638C2170E93B009A876F /* Chameleon */ = {
+			isa = PBXGroup;
+			children = (
+				FD1DA67C2174CA7C00C1A0C0 /* Services */,
+				FD0C63BD21746DC9009A876F /* Chameleon View */,
+				FD0C638D2170E93B009A876F /* AppDelegate.swift */,
+				FD0C638F2170E93B009A876F /* ChameleonViewController.swift */,
+				FD0C63942170E93D009A876F /* Assets.xcassets */,
+				FD0C63962170E93D009A876F /* LaunchScreen.storyboard */,
+				FD0C63992170E93D009A876F /* Info.plist */,
+			);
+			path = Chameleon;
+			sourceTree = "<group>";
+		};
+		FD0C63A12170E93D009A876F /* Chameleon Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FD0C63A22170E93D009A876F /* Chameleon_Tests.swift */,
+				FD0C63A42170E93D009A876F /* Info.plist */,
+			);
+			path = "Chameleon Tests";
+			sourceTree = "<group>";
+		};
+		FD0C63AC2170E93D009A876F /* Chameleon UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD0C63AD2170E93D009A876F /* Chameleon_UITests.swift */,
+				FD0C63AF2170E93D009A876F /* Info.plist */,
+			);
+			path = "Chameleon UITests";
+			sourceTree = "<group>";
+		};
+		FD0C63BD21746DC9009A876F /* Chameleon View */ = {
+			isa = PBXGroup;
+			children = (
+				FD1DA67A2174886F00C1A0C0 /* ChameleonBackgroundView.swift */,
+				FD0C63BE21746F2D009A876F /* ChameleonFigureView.swift */,
+				FD1DA676217482D800C1A0C0 /* ChameleonForgroundView.swift */,
+				FD1DA6782174847D00C1A0C0 /* ChameleonView.swift */,
+			);
+			path = "Chameleon View";
+			sourceTree = "<group>";
+		};
+		FD1DA67C2174CA7C00C1A0C0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FD1DA67D2174CA9400C1A0C0 /* CameraFeedService.swift */,
+				FD1DA67F2175D68B00C1A0C0 /* AverageColorHelper.swift */,
+				FDFC4B1521786B350051103D /* AverageCameraFeedColorService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD0C63892170E93B009A876F /* Chameleon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD0C63B22170E93D009A876F /* Build configuration list for PBXNativeTarget "Chameleon" */;
+			buildPhases = (
+				FD0C63862170E93B009A876F /* Sources */,
+				FD0C63872170E93B009A876F /* Frameworks */,
+				FD0C63882170E93B009A876F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Chameleon;
+			productName = "Chamelon Fun";
+			productReference = FD0C638A2170E93B009A876F /* Chameleon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD0C639D2170E93D009A876F /* ChameleonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD0C63B52170E93D009A876F /* Build configuration list for PBXNativeTarget "ChameleonTests" */;
+			buildPhases = (
+				FD0C639A2170E93D009A876F /* Sources */,
+				FD0C639B2170E93D009A876F /* Frameworks */,
+				FD0C639C2170E93D009A876F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD0C63A02170E93D009A876F /* PBXTargetDependency */,
+			);
+			name = ChameleonTests;
+			productName = "Chamelon FunTests";
+			productReference = FD0C639E2170E93D009A876F /* ChameleonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD0C63A82170E93D009A876F /* ChameleonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD0C63B82170E93D009A876F /* Build configuration list for PBXNativeTarget "ChameleonUITests" */;
+			buildPhases = (
+				FD0C63A52170E93D009A876F /* Sources */,
+				FD0C63A62170E93D009A876F /* Frameworks */,
+				FD0C63A72170E93D009A876F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD0C63AB2170E93D009A876F /* PBXTargetDependency */,
+			);
+			name = ChameleonUITests;
+			productName = "Chamelon FunUITests";
+			productReference = FD0C63A92170E93D009A876F /* ChameleonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD0C63822170E93B009A876F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = com.mortengustafsson;
+				TargetAttributes = {
+					FD0C63892170E93B009A876F = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					FD0C639D2170E93D009A876F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = FD0C63892170E93B009A876F;
+					};
+					FD0C63A82170E93D009A876F = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = FD0C63892170E93B009A876F;
+					};
+				};
+			};
+			buildConfigurationList = FD0C63852170E93B009A876F /* Build configuration list for PBXProject "Chameleon" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD0C63812170E93B009A876F;
+			productRefGroup = FD0C638B2170E93B009A876F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD0C63892170E93B009A876F /* Chameleon */,
+				FD0C639D2170E93D009A876F /* ChameleonTests */,
+				FD0C63A82170E93D009A876F /* ChameleonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD0C63882170E93B009A876F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0C63982170E93D009A876F /* LaunchScreen.storyboard in Resources */,
+				FD0C63952170E93D009A876F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0C639C2170E93D009A876F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0C63A72170E93D009A876F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD0C63862170E93B009A876F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0C63902170E93B009A876F /* ChameleonViewController.swift in Sources */,
+				FD1DA6802175D68B00C1A0C0 /* AverageColorHelper.swift in Sources */,
+				FD1DA67E2174CA9400C1A0C0 /* CameraFeedService.swift in Sources */,
+				FD0C63BF21746F2D009A876F /* ChameleonFigureView.swift in Sources */,
+				FD1DA6792174847D00C1A0C0 /* ChameleonView.swift in Sources */,
+				FDFC4B1621786B350051103D /* AverageCameraFeedColorService.swift in Sources */,
+				FD0C638E2170E93B009A876F /* AppDelegate.swift in Sources */,
+				FD1DA677217482D800C1A0C0 /* ChameleonForgroundView.swift in Sources */,
+				FD1DA67B2174886F00C1A0C0 /* ChameleonBackgroundView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0C639A2170E93D009A876F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0C63A32170E93D009A876F /* Chameleon_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD0C63A52170E93D009A876F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD0C63AE2170E93D009A876F /* Chameleon_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD0C63A02170E93D009A876F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD0C63892170E93B009A876F /* Chameleon */;
+			targetProxy = FD0C639F2170E93D009A876F /* PBXContainerItemProxy */;
+		};
+		FD0C63AB2170E93D009A876F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD0C63892170E93B009A876F /* Chameleon */;
+			targetProxy = FD0C63AA2170E93D009A876F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD0C63962170E93D009A876F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD0C63972170E93D009A876F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD0C63B02170E93D009A876F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD0C63B12170E93D009A876F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD0C63B32170E93D009A876F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Chameleon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mortengustafsson.Chameleon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD0C63B42170E93D009A876F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Chameleon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mortengustafsson.Chameleon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FD0C63B62170E93D009A876F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Chameleon FunTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mortengustafsson.Chameleon-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chameleon.app/Chameleon";
+			};
+			name = Debug;
+		};
+		FD0C63B72170E93D009A876F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Chameleon FunTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mortengustafsson.Chameleon-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Chameleon.app/Chameleon";
+			};
+			name = Release;
+		};
+		FD0C63B92170E93D009A876F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Chameleon UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mortengustafsson.Chameleon-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chameleon Fun";
+			};
+			name = Debug;
+		};
+		FD0C63BA2170E93D009A876F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Chameleon UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mortengustafsson.Chameleon-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Chameleon Fun";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD0C63852170E93B009A876F /* Build configuration list for PBXProject "Chameleon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0C63B02170E93D009A876F /* Debug */,
+				FD0C63B12170E93D009A876F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD0C63B22170E93D009A876F /* Build configuration list for PBXNativeTarget "Chameleon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0C63B32170E93D009A876F /* Debug */,
+				FD0C63B42170E93D009A876F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD0C63B52170E93D009A876F /* Build configuration list for PBXNativeTarget "ChameleonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0C63B62170E93D009A876F /* Debug */,
+				FD0C63B72170E93D009A876F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD0C63B82170E93D009A876F /* Build configuration list for PBXNativeTarget "ChameleonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD0C63B92170E93D009A876F /* Debug */,
+				FD0C63BA2170E93D009A876F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD0C63822170E93B009A876F /* Project object */;
+}

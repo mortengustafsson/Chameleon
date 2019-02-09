@@ -11,7 +11,7 @@ import AVFoundation
 
 struct AverageColorHelper {
 
-    // This code has been created by: Julien Sagot,
+    // Inspiration to this code:
     // https://portfolio.juliensagot.fr
     // https://gist.github.com/juliensagot
     // https://gist.github.com/juliensagot/602f27776fdf0e0d7c92dd52a2f94662

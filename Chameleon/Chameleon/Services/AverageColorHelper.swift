@@ -2,7 +2,7 @@
 //  AverageColorHelper.swift
 //  Chameleon
 //
-//  Created by Morten Gustafsson on 16/10/2019.
+//  Created by Morten Gustafsson on 09/02/2019.
 //  Copyright © 2019 com.mortengustafsson. All rights reserved.
 //
 

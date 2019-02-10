@@ -7,7 +7,7 @@ Chameleon is an iOS app written in [Swift](https://developer.apple.com/swift/). 
 
 
 ### Author:
-[Morten Gustafson](https://github.com/mortengustafsson) / morten@mortengustafsson.dk
+[Morten Gustafsson](https://github.com/mortengustafsson) / morten@mortengustafsson.dk
 
 
 ### Credit to:
